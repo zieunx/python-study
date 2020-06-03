@@ -37,3 +37,15 @@ for i in range(5):
 # for문으로 별 찍기 (오른쪽 정렬)
 for i in range(5):
     print('{:>5}'.format('*' * (i+1)))
+
+print('\n\n ======== \n\n ')
+
+a = "Life is too short, You need Python"
+print(a[2:4])
+
+print('\n\n ======== \n\n ')
+
+a = "Error is %d%%." % 98
+b = "Error is %s%%." % 98
+
+print(a + '\n' + b)
