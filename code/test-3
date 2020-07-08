@@ -1,0 +1,10 @@
+
+def test1():  # void 구현
+    print('test1 실행')
+
+
+def main():
+    a = test1()
+    print(a)
+
+main()

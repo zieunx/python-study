@@ -49,3 +49,8 @@ a = "Error is %d%%." % 98
 b = "Error is %s%%." % 98
 
 print(a + '\n' + b)
+
+print('\n\n ======== \n\n ')
+
+tu1 = (1, 2, 'a', 'b')
+print(tu1 + (2,))
